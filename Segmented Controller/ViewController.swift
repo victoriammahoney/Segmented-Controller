@@ -34,6 +34,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         //helloLabel.isHidden = true
+        let text = [NSAttributedString.Key.foregroundColor: UIColor.systemPink]
+        
+        SegmentedController.setTitleTextAttributes(text, for: .normal)
+        
+        let text2 = [NSAttributedString.Key.foregroundColor: UIColor.systemMint]
+        
+        SegmentedController.setTitleTextAttributes(text2, for: .selected)
 
     }
 
