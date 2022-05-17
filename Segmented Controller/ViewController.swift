@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var SegmentedController: UISegmentedControl!
     
     @IBAction func segmentChanged(_ sender: Any) {
+  
+        
         
         //helloLabel.isHidden = false
         switch SegmentedController.selectedSegmentIndex {
